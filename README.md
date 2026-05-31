@@ -1,45 +1,102 @@
-# Portafolio Personal - Matías Morales
+# Portafolio Web Profesional
 
-Portafolio web personal desarrollado en PHP con panel de administración.
+Portafolio personal autoadministrable desarrollado como Evaluación N°3 de la asignatura Diseño y Desarrollo Web, carrera Técnico Universitario en Informática — Universidad Católica de Temuco.
 
-## Tecnologías
-- PHP (PDO)
-- MySQL
-- HTML5 / CSS3
-- JavaScript (Vanilla)
+**Repositorio:** https://github.com/TU-USUARIO/TU-REPOSITORIO
 
-## Estructura del proyecto
-```
-portafolio_matias/
-├── api/               # Endpoints de la API REST
-│   ├── biografia.php
-│   ├── habilidades.php
-│   ├── mensajes.php
-│   ├── proyectos.php
-│   ├── tecnologias.php
-│   └── usuarios.php
-├── assets/
-│   ├── css/           # Estilos
-│   └── js/
-│       ├── admin/     # Scripts del panel de administración
-│       └── main.js    # Script principal
-├── conexion.example.php  # Plantilla de configuración de BD
-├── dashboard.php      # Panel de administración
-├── db.php             # Configuración de base de datos
-├── enviar_mensaje.php # Formulario de contacto
-├── index.php          # Página principal
-└── login.php          # Autenticación
-```
+**Producción:** https://teclab.uct.cl/~mmorales2018/
 
-## Instalación
-1. Clona el repositorio
-2. Copia `conexion.example.php` como `conexion.php`
-3. Edita `conexion.php` con tus credenciales de base de datos
-4. Importa la base de datos e inicia el servidor
+## Descripción
+
+El sitio público presenta mi biografía profesional, habilidades técnicas, tecnologías dominadas, proyectos realizados y un formulario de contacto.
+
+Además, cuenta con un panel de administración privado que permite gestionar el contenido del portafolio sin necesidad de modificar el código fuente.
 
 ## Funcionalidades
-- Sección de biografía dinámica
-- Proyectos y habilidades gestionables desde el panel
-- Panel de administración con login
-- Formulario de contacto
-- API REST para cada sección
+
+### Sitio Público
+
+* Biografía profesional
+* Habilidades y herramientas
+* Tecnologías dominadas
+* Proyectos realizados
+* Formulario de contacto
+* Diseño responsive
+
+### Panel Administrativo
+
+* Inicio de sesión
+* Administración de biografía
+* Administración de habilidades
+* Administración de tecnologías
+* Administración de proyectos
+* Gestión de mensajes recibidos
+
+## Stack Tecnológico
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript ES6
+* Bootstrap 5
+
+### Backend
+
+* PHP
+
+### Base de Datos
+
+* MySQL
+
+## Estructura del Proyecto
+
+```text
+proyecto-portafolio/
+├── admin/
+├── api/
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── uploads/
+├── config/
+├── includes/
+├── index.php
+├── dashboard.php
+└── bd.sql
+```
+
+## Tecnologías Utilizadas
+
+* HTML5
+* CSS3
+* JavaScript
+* PHP
+* MySQL
+* Bootstrap
+* GitHub
+* IA aplicada al desarrollo web
+
+## Base de Datos
+
+El sistema almacena información relacionada con:
+
+* Usuarios administradores
+* Biografía del estudiante
+* Habilidades
+* Tecnologías dominadas
+* Proyectos realizados
+* Mensajes de contacto
+
+## Autor
+
+**Matías Morales**
+
+Estudiante de Técnico Universitario en Informática
+
+Universidad Católica de Temuco
+
+Asignatura: Diseño y Desarrollo Web
+
+Docente: Cristian Iglesias Vera
+
