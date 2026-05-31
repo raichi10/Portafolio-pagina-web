@@ -2,7 +2,7 @@
 
 Portafolio personal autoadministrable desarrollado como Evaluación N°3 de la asignatura Diseño y Desarrollo Web, carrera Técnico Universitario en Informática — Universidad Católica de Temuco.
 
-**Repositorio:** https://github.com/TU-USUARIO/TU-REPOSITORIO
+**Repositorio:** https://github.com/raichi10/Portafolio-pagina-web
 
 **Producción:** https://teclab.uct.cl/~mmorales2018/
 
